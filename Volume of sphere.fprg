@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-30 12:06:58 AM"/>
+        <attribute name="created" value="QWRtaW47REVTS1RPUC1RNTE4TU5BOzIwMjMtMDgtMzA7MTI6MDI6MjcgQU07Mjc5Mg=="/>
+        <attribute name="edited" value="QWRtaW47REVTS1RPUC1RNTE4TU5BOzIwMjMtMDgtMzA7MTI6MDY6NTggQU07MTsyOTA4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="R, P" type="Real" array="False" size=""/>
+            <output expression="&quot;input the radius of the sphere&quot;" newline="True"/>
+            <input variable="R"/>
+            <assign variable="P" expression="3.1415"/>
+            <output expression="&quot;Volume of sphere is&quot;" newline="True"/>
+            <output expression="(4/3)*P*R*R*R" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
