@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-29 11:50:05 PM"/>
+        <attribute name="created" value="QWRtaW47REVTS1RPUC1RNTE4TU5BOzIwMjMtMDgtMjk7MTE6NDc6MTAgUE07MjgxNQ=="/>
+        <attribute name="edited" value="QWRtaW47REVTS1RPUC1RNTE4TU5BOzIwMjMtMDgtMjk7MTE6NTA6MDUgUE07MTsyOTIx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, z, A" type="Integer" array="False" size=""/>
+            <input variable="x"/>
+            <input variable="y"/>
+            <input variable="z"/>
+            <assign variable="A" expression="(x+y+z)/3"/>
+            <output expression="A" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
